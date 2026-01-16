@@ -1,0 +1,66 @@
+# ===============================
+# Miscellaneous
+# ===============================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ===============================
+# IDE / Editor
+# ===============================
+*.iml
+*.ipr
+*.iws
+.idea/
+#.vscode/
+
+# ===============================
+# Flutter / Dart / Pub
+# ===============================
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# ===============================
+# Android build outputs
+# ===============================
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# ===============================
+# iOS / macOS
+# ===============================
+ios/Pods/
+macos/Pods/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# ===============================
+# Obfuscation / Symbols
+# ===============================
+app.*.symbols
+app.*.map.json
+
+# ===============================
+# Sensitive app configuration
+# ===============================
+.env
+test.dart
+lib/constants.dart
+lib/src/constants.dart
+lib/firebase_options.dart

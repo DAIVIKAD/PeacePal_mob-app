@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "489630075485",
+    "project_id": "peacepal-1b6ec",
+    "storage_bucket": "peacepal-1b6ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489630075485:android:28d7547f0883cf01f11bb4",
+        "android_client_info": {
+          "package_name": "com.example.peacepal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYj5ml144LGPNnsfCne0eejlEMXH2TAK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

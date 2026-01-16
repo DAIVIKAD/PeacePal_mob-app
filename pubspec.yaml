@@ -1,0 +1,57 @@
+name: peacepal
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.2
+  cloud_firestore: ^5.4.4
+
+  # Networking
+  http: ^1.2.2
+
+  # Local storage
+  shared_preferences: ^2.3.2
+
+  # File export
+  csv: ^6.0.0
+  path_provider: ^2.1.4
+  permission_handler: ^11.3.1
+  open_file: ^3.3.2
+
+  # UI / charts / formatting
+  fl_chart: ^1.1.1
+  intl: ^0.19.0
+
+  # Linking
+  url_launcher: ^6.3.1
+
+  # Notifications + timezone (MUST be inside dependencies)
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
